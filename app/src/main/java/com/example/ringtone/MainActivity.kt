@@ -2,7 +2,12 @@ package com.example.ringtone
 
 import android.media.MediaPlayer
 import android.os.Bundle
+import android.view.View
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
 import android.widget.ImageButton
+import android.widget.ImageView
+import android.widget.ScrollView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ringtone.R
 
@@ -14,6 +19,23 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val logoSplash = findViewById<ImageView>(R.id.logoSplash)
+        val songList = findViewById<ScrollView>(R.id.songList)
+
+        val animAbajo = AnimationUtils.loadAnimation(this, R.anim.desplazamiento_abajo)
+        val animArriba = AnimationUtils.loadAnimation(this, R.anim.desplazamiento_arriba)
+
+        animAbajo.setAnimationListener(object : Animation.AnimationListener {
+            override fun onAnimationStart(animation: Animation?) {}
+            override fun onAnimationRepeat(animation: Animation?) {}
+            override fun onAnimationEnd(animation: Animation?) {
+                songList.visibility = View.VISIBLE
+                songList.startAnimation(animArriba)
+            }
+        })
+
+        logoSplash.startAnimation(animAbajo)
 
         setupButton(R.id.btn_1, R.raw.iphone_notificacion)
         setupButton(R.id.btn_2, R.raw.mario_bros_vida)
