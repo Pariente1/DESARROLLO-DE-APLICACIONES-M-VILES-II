@@ -55,12 +55,30 @@
                 android:background="?attr/selectableItemBackground" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="iPhone Notificación"
                 android:textSize="18sp"
                 android:layout_marginStart="20dp"
                 android:textColor="#333333" />
+            <ImageButton
+                android:id="@+id/btn_share_1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/share"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
+
+            <ImageButton
+                android:id="@+id/btn_blue_1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/blue"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -81,12 +99,30 @@
                 android:background="?attr/selectableItemBackground" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="Mario Bros Vida"
                 android:textSize="18sp"
                 android:layout_marginStart="20dp"
                 android:textColor="#333333" />
+                    <ImageButton
+                android:id="@+id/btn_share_2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/share"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
+
+            <ImageButton
+                android:id="@+id/btn_blue_2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/blue"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -107,12 +143,30 @@
                 android:background="?attr/selectableItemBackground" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="Messenger Tono"
                 android:textSize="18sp"
                 android:layout_marginStart="20dp"
                 android:textColor="#333333" />
+                    <ImageButton
+                android:id="@+id/btn_share_3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/share"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
+
+            <ImageButton
+                android:id="@+id/btn_blue_3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/blue"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -133,12 +187,30 @@
                 android:background="?attr/selectableItemBackground" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="Pacman Dies"
                 android:textSize="18sp"
                 android:layout_marginStart="20dp"
                 android:textColor="#333333" />
+                    <ImageButton
+                android:id="@+id/btn_share_4"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/share"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
+
+            <ImageButton
+                android:id="@+id/btn_blue_4"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/blue"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -159,12 +231,30 @@
                 android:background="?attr/selectableItemBackground" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="iPhone Original"
                 android:textSize="18sp"
                 android:layout_marginStart="20dp"
                 android:textColor="#333333" />
+                    <ImageButton
+                android:id="@+id/btn_share_5"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/share"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
+
+            <ImageButton
+                android:id="@+id/btn_blue_5"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/blue"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -185,12 +275,30 @@
                 android:background="?attr/selectableItemBackground" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="Pato Donald"
                 android:textSize="18sp"
                 android:layout_marginStart="20dp"
                 android:textColor="#333333" />
+                    <ImageButton
+                android:id="@+id/btn_share_6"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/share"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
+
+            <ImageButton
+                android:id="@+id/btn_blue_6"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/blue"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -211,12 +319,30 @@
                 android:background="?attr/selectableItemBackground" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="Super Mario Bros"
                 android:textSize="18sp"
                 android:layout_marginStart="20dp"
                 android:textColor="#333333" />
+                    <ImageButton
+                android:id="@+id/btn_share_7"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/share"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
+
+            <ImageButton
+                android:id="@+id/btn_blue_7"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/blue"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -237,12 +363,30 @@
                 android:background="?attr/selectableItemBackground" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="Tono Mensaje 3"
                 android:textSize="18sp"
                 android:layout_marginStart="20dp"
                 android:textColor="#333333" />
+                    <ImageButton
+                android:id="@+id/btn_share_8"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/share"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
+
+            <ImageButton
+                android:id="@+id/btn_blue_8"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/blue"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -263,12 +407,30 @@
                 android:background="?attr/selectableItemBackground" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="Vehicle 031"
                 android:textSize="18sp"
                 android:layout_marginStart="20dp"
                 android:textColor="#333333" />
+                    <ImageButton
+                android:id="@+id/btn_share_9"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/share"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
+
+            <ImageButton
+                android:id="@+id/btn_blue_9"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/blue"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -289,14 +451,33 @@
                 android:background="?attr/selectableItemBackground" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="Whistle Campana"
                 android:textSize="18sp"
                 android:layout_marginStart="20dp"
                 android:textColor="#333333" />
+                    <ImageButton
+                android:id="@+id/btn_share_10"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/share"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
+
+            <ImageButton
+                android:id="@+id/btn_blue_10"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/blue"
+                android:scaleType="centerInside"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
         </LinearLayout>
 
     </LinearLayout>
     </ScrollView>
 </LinearLayout>
+

@@ -47,6 +47,18 @@ class MainActivity : AppCompatActivity() {
         setupButton(R.id.btn_8, R.raw.tono_mensaje_3_)
         setupButton(R.id.btn_9, R.raw.vehicle031)
         setupButton(R.id.btn_10, R.raw.whistle_campana_whatsapp)
+
+        for (i in 1..10) {
+            val shareId = resources.getIdentifier("btn_share_$i", "id", packageName)
+            findViewById<ImageButton>(shareId)?.setOnClickListener {
+                startActivity(android.content.Intent(this, ShareActivity::class.java))
+            }
+            
+            val blueId = resources.getIdentifier("btn_blue_$i", "id", packageName)
+            findViewById<ImageButton>(blueId)?.setOnClickListener {
+                android.widget.Toast.makeText(this, "boton funcionando", android.widget.Toast.LENGTH_SHORT).show()
+            }
+        }
     }
 
     private fun setupButton(buttonId: Int, audioRes: Int) {
