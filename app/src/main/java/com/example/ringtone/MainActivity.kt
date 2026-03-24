@@ -1,13 +1,18 @@
 package com.example.ringtone
 
+import android.content.Context
 import android.media.MediaPlayer
 import android.os.Bundle
+import android.view.Gravity
+import android.view.LayoutInflater
 import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
+import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.ScrollView
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ringtone.R
 
@@ -56,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             
             val blueId = resources.getIdentifier("btn_blue_$i", "id", packageName)
             findViewById<ImageButton>(blueId)?.setOnClickListener {
-                android.widget.Toast.makeText(this, "boton funcionando", android.widget.Toast.LENGTH_SHORT).show()
+                DialogUtils.showPointsDialog(this)
             }
         }
     }

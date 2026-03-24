@@ -14,7 +14,7 @@ class ShareActivity : AppCompatActivity() {
 
         for (id in imageIds) {
             findViewById<ImageView>(id)?.setOnClickListener {
-                Toast.makeText(this, "boton funcionando", Toast.LENGTH_SHORT).show()
+                DialogUtils.showPointsDialog(this)
             }
         }
 
